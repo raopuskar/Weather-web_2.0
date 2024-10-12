@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter the city" class="input-box">
+            <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+
+        </div>
+
+        <div class="weather">
+            <img src="sun-icon.png" class="weather-img">
+            <h2 class="temperature">22℃</h2>
+            <h3 class="city">Kolkata</h3>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+
+                <div class="col" id="col2">
+                    <img src="wind.png">
+                    <div>
+                        <p class="wind-speed">50 km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/595a890311.js" crossorigin="anonymous"></script>
+
+</html>
